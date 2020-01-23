@@ -72,7 +72,7 @@ When the client makes a `POST` request to `/api/users`:
 
   - save the new _user_ the the database.
   - respond with HTTP status code `201` (Created).
-  - return the newly created _user document_.
+  - return the newly created _user document_. // _user document_ is undefined!!!
 
 - If there's an error while saving the _user_:
   - respond with HTTP status code `500` (Server Error).
